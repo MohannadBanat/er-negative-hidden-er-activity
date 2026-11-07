@@ -1,0 +1,8 @@
+{
+ "mean_expr_LumA_vs_Basal": 0.5726665990176653,
+ "mean_expr_ERpos_vs_ERneg": 0.5517690531448531,
+ "mean_expr_withinERneg_luminal_vs_basal_n158": 0.5810810810810811,
+ "frac_detected_LumA_vs_Basal": 0.4834081922940666,
+ "frac_detected_ERpos_vs_ERneg": 0.47916080596385124,
+ "frac_detected_withinERneg_luminal_vs_basal_n158": 0.47972972972972977
+}

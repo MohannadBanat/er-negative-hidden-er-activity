@@ -1,0 +1,10 @@
+data/
+out/scores.parquet
+out/estimate_scores.parquet
+ext/
+*.parquet
+__pycache__/
+ref/papers/*.pdf
+
+# Manuscript files are kept outside the public repository until publication
+manuscript/

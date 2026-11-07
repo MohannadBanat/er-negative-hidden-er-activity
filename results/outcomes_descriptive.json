@@ -1,0 +1,34 @@
+{
+ "HEA": {
+  "n": 20,
+  "n_with_followup": 20,
+  "deaths": 0,
+  "median_followup_years": 3.9,
+  "endocrine_treated": 1,
+  "chemo_treated": 19
+ },
+ "silent_ESR1": {
+  "n": 3,
+  "n_with_followup": 3,
+  "deaths": 0,
+  "median_followup_years": 4.5,
+  "endocrine_treated": 0,
+  "chemo_treated": 3
+ },
+ "act_wo_ESR1": {
+  "n": 58,
+  "n_with_followup": 58,
+  "deaths": 11,
+  "median_followup_years": 4.07,
+  "endocrine_treated": 2,
+  "chemo_treated": 39
+ },
+ "true_neg": {
+  "n": 160,
+  "n_with_followup": 160,
+  "deaths": 23,
+  "median_followup_years": 3.94,
+  "endocrine_treated": 8,
+  "chemo_treated": 125
+ }
+}

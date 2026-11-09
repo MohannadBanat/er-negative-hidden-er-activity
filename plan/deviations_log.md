@@ -36,3 +36,23 @@ Sensitivity analysis for P2b (reclassification probability) using expression-dep
   - non-HEA uncertainty increased (24 → 36 of 241 tumours with probability ≥ 10%).
 - The constant-SD recomputation with the new draws reproduced P2b (0.81 vs 0.82; 18 vs 18).
 - Script 21_A3_heteroscedastic_reclass.py; output A3_heteroscedastic_reclass.json. Rows added to Table S1 (script 20).
+
+## A4 — 2026-11-10 — amendment committed (amendment_A4_2026-11-10.md, SHA-256 ffad9bcf…f1a8)
+External cohort GSE25066 added at the co-authors' request. This extends the data list by one GEO series; the study stays GEO-only. Post hoc.
+- **Order of events.** Only the sample annotation was read before hashing (ER status counts, field names, overall PAM50 distribution). The amendment and its three decision rules were hashed at 22:11 UTC on 9 November (10 November local time). Expression values were read after that.
+- **Result against the pre-stated rules.**
+  - Prevalence: NOT consistent. HEA 39/205 (19.0%, 14.2–24.9) against 11/165 in the SCAN-B HER2-negative stratum; difference 12.4 points (5.5–19.0).
+  - Dependence on definition: replicated. 23 to 119 tumours across definitions (5.2-fold).
+  - Composition: NOT replicated in full. Condition (a) met (20/39 HEA luminal or Normal-like). Condition (b) not met (AR in activity-without-ESR1 against low/low: p = 0.13).
+- The outcome fields of GSE25066 were never parsed (script 22 keeps a fixed list of six annotation fields).
+- The HEA count and the ESR1 values were reproduced by a separate code path reading probe set 205225_at directly from the series matrix.
+- Scripts 22_A4_external_GSE25066.py and 24_A4_table.py; outputs A4_external_GSE25066.json, A4_GSE25066_neg_tumours.csv, A4_GSE25066_scores_all.csv, Table5_A4.md.
+
+## 2026-11-10 — full provenance check of GSE96058 (not an analysis)
+The GEO supplementary expression file (MD5 4362d1d9b5e80a6e1409cd7b9dc4a0ab) was downloaded and compared with the analysed matrix: 30,865 genes × 3409 libraries present in both; 105,218,785 values compared; largest absolute difference 9.5e-07; none above 1e-06. Script 23_provenance_full_check.py; output provenance_full_check.json. This replaces the earlier 5 × 5 spot check.
+
+## 2026-11-10 — wording changes requested by co-authors (no analysis changed)
+- The group "truly ER-negative" is renamed "concordant ER-negative" in text, tables and figures. The co-authors proposed "non-HER2 ER-negative"; that label was not used because 30 of the 160 tumours in the group are HER2-positive (and 9 have missing HER2 status), so it would misdescribe the group. Internal variable names (true_neg) are unchanged.
+- New, shorter title. The microRNA and cell-line sections are reframed as exploratory context and moved after the external cohort; claims about them are removed from the Simple Summary, Abstract and Conclusions.
+- The GEO-only data rule is stated in Methods 2.1.
+- GRRAS and REMARK were already cited separately (now references 48 and 49); no change was needed.

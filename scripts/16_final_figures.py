@@ -20,7 +20,7 @@ plt.rcParams.update({"font.family": "Liberation Sans", "font.size": 8, "axes.lab
                      "axes.linewidth": 0.7, "xtick.major.width": 0.7, "ytick.major.width": 0.7,
                      "figure.facecolor": "white", "axes.facecolor": "white", "savefig.facecolor": "white", "pdf.fonttype": 42})
 GC = {"HEA": "#2a78d6", "silent_ESR1": "#eb6834", "act_wo_ESR1": "#1baf7a", "true_neg": "#eda100"}
-GL = {"HEA": "Hidden ER activity", "silent_ESR1": "Silent ESR1", "act_wo_ESR1": "Activity without ESR1", "true_neg": "Truly ER-negative"}
+GL = {"HEA": "Hidden ER activity", "silent_ESR1": "Silent ESR1", "act_wo_ESR1": "Activity without ESR1", "true_neg": "Concordant ER-negative"}
 GM = {"HEA": "o", "silent_ESR1": "s", "act_wo_ESR1": "^", "true_neg": "D"}
 T = r["thresholds"]["5"]
 def panel(ax, lab): ax.text(-0.13, 1.03, lab, transform=ax.transAxes, fontsize=10, fontweight="bold", va="bottom", ha="left")

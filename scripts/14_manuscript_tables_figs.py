@@ -10,7 +10,7 @@ for v in ["chemo_treated","endocrine_treated","lymphNode_Status","her2_Status","
     t[v] = s[v].astype(str)
 t["chemo"] = t.chemo_treated; t["endo"] = t.endocrine_treated
 order = ["HEA", "silent_ESR1", "act_wo_ESR1", "true_neg"]
-GL = {"HEA": "Hidden ER activity", "silent_ESR1": "Silent ESR1", "act_wo_ESR1": "Activity without ESR1", "true_neg": "Truly ER-negative"}
+GL = {"HEA": "Hidden ER activity", "silent_ESR1": "Silent ESR1", "act_wo_ESR1": "Activity without ESR1", "true_neg": "Concordant ER-negative"}
 rows = []
 def cat(var, lev, lab):
     r = {"Characteristic": lab}

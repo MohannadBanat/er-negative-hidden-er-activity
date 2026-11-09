@@ -44,9 +44,14 @@ python3 -I scripts/19_A2_coauthor_checks.py data out                     # E5 HE
 # Amendment A3 (plan/amendment_A3_2026-11-03.md, SHA-256 29a65841…38c4): P2b with expression-dependent noise, exploratory
 python3 -I scripts/21_A3_heteroscedastic_reclass.py data out             # reclassification sensitivity analysis
 python3 -I scripts/20_A2_tableS1.py out out/TableS1_A2.md               # Supplementary Table S1 (A2 + A3 rows)
+# Amendment A4 (plan/amendment_A4_2026-11-10.md, SHA-256 ffad9bcf…f1a8): external cohort, post hoc
+python3 -I scripts/22_A4_external_GSE25066.py <GSE25066_series_matrix.txt.gz> <GPL96.annot.gz> ref/h.all.v7.0.symbols.gmt out
+python3 -I scripts/24_A4_table.py out out/Table5_A4.md
+# Full provenance check of the SCAN-B matrix against the GEO file
+python3 -I scripts/23_provenance_full_check.py <GSE96058 gene expression csv.gz> data/expr.parquet out/provenance_full_check.json
 ```
 
-Data used (all from Open_data.xlsx): GSE96058, GSE40049, GSE38167, GSE337499, GSE337500.
+Data used (GEO only): GSE96058, GSE40049, GSE38167, GSE337499, GSE337500 (original list) and GSE25066 (external cohort, added by amendment A4).
 
 Python 3.13: pandas, numpy, scipy, statsmodels, scikit-learn, pyreadr, matplotlib, pyarrow (see `requirements.txt`). Random seed 20261025.
 

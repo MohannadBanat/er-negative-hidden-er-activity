@@ -5,17 +5,17 @@
 | E5 HER2 status | HER2-negative (n = 165): Hidden ER activity | 11 (6.7%; 3.8–11.5) |
 | E5 HER2 status | HER2-negative (n = 165): Silent ESR1 | 2 (1.2%; 0.3–4.3) |
 | E5 HER2 status | HER2-negative (n = 165): Activity without ESR1 | 31 (18.8%; 13.6–25.4) |
-| E5 HER2 status | HER2-negative (n = 165): Truly ER-negative | 121 (73.3%; 66.1–79.5) |
+| E5 HER2 status | HER2-negative (n = 165): Concordant ER-negative | 121 (73.3%; 66.1–79.5) |
 | E5 HER2 status | HER2-negative: PAM50 of HEA tumours | Normal-like 5; Luminal A 3; Basal-like 2; Luminal B 1 |
 | E5 HER2 status | HER2-positive (n = 63): Hidden ER activity | 8 (12.7%; 6.6–23.1) |
 | E5 HER2 status | HER2-positive (n = 63): Silent ESR1 | 0 (0.0%; 0.0–5.7) |
 | E5 HER2 status | HER2-positive (n = 63): Activity without ESR1 | 25 (39.7%; 28.5–52.0) |
-| E5 HER2 status | HER2-positive (n = 63): Truly ER-negative | 30 (47.6%; 35.8–59.7) |
+| E5 HER2 status | HER2-positive (n = 63): Concordant ER-negative | 30 (47.6%; 35.8–59.7) |
 | E5 HER2 status | HER2-positive: PAM50 of HEA tumours | Luminal A 5; HER2-enriched 2; Normal-like 1 |
 | E5 HER2 status | HER2 missing (n = 13): Hidden ER activity | 1 (7.7%; 1.4–33.3) |
 | E5 HER2 status | HER2 missing (n = 13): Silent ESR1 | 1 (7.7%; 1.4–33.3) |
 | E5 HER2 status | HER2 missing (n = 13): Activity without ESR1 | 2 (15.4%; 4.3–42.2) |
-| E5 HER2 status | HER2 missing (n = 13): Truly ER-negative | 9 (69.2%; 42.4–87.3) |
+| E5 HER2 status | HER2 missing (n = 13): Concordant ER-negative | 9 (69.2%; 42.4–87.3) |
 | E5 HER2 status | HER2 missing: PAM50 of HEA tumours | Luminal A 1 |
 | E5 HER2 status | HEA prevalence, HER2-positive minus HER2-negative | 6.0 percentage points (−1.8 to 16.8) |
 | E6 Near-threshold stability | ESR1 call, replicate pairs within 2 technical SD of threshold | 2 pairs; agreement 100.0%; 0 discordant |

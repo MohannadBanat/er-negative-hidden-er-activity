@@ -4,7 +4,7 @@ O = pathlib.Path(sys.argv[1]); OUT = pathlib.Path(sys.argv[2])
 r = json.load(open(O / "A2_coauthor_checks.json"))
 f1 = lambda x: f"{100 * x:.1f}"
 def kci(k, ci, n): return f"{k} ({f1(k / n)}%; {f1(ci[0])}–{f1(ci[1])})" if n else str(k)
-GL = [("HEA", "Hidden ER activity"), ("silent_ESR1", "Silent ESR1"), ("act_wo_ESR1", "Activity without ESR1"), ("true_neg", "Truly ER-negative")]
+GL = [("HEA", "Hidden ER activity"), ("silent_ESR1", "Silent ESR1"), ("act_wo_ESR1", "Activity without ESR1"), ("true_neg", "Concordant ER-negative")]
 PL = {"LumA": "Luminal A", "LumB": "Luminal B", "Her2": "HER2-enriched", "Basal": "Basal-like", "Normal": "Normal-like"}
 rows = []
 for h, lab in [("0", "HER2-negative"), ("1", "HER2-positive"), ("missing", "HER2 missing")]:

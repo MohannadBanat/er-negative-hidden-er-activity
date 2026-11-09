@@ -1,0 +1,19 @@
+{
+ "geo_file": "GSE96058_gene_expression_3273_samples_and_136_replicates_transformed.csv.gz",
+ "geo_md5": "4362d1d9b5e80a6e1409cd7b9dc4a0ab",
+ "analysed_shape": [
+  30865,
+  3409
+ ],
+ "geo_n_samples": 3409,
+ "samples_only_in_geo": [],
+ "samples_only_in_analysed": [],
+ "same_sample_set": true,
+ "geo_n_genes": 30865,
+ "genes_in_geo_not_analysed_examples": [],
+ "n_genes_analysed_not_in_geo": 0,
+ "values_compared": 105218785,
+ "max_abs_difference": 9.535435161467376e-07,
+ "values_differing_by_more_than_1e-6": 0,
+ "examples": []
+}

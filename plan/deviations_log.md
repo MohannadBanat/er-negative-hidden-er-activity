@@ -56,3 +56,7 @@ The GEO supplementary expression file (MD5 4362d1d9b5e80a6e1409cd7b9dc4a0ab) was
 - New, shorter title. The microRNA and cell-line sections are reframed as exploratory context and moved after the external cohort; claims about them are removed from the Simple Summary, Abstract and Conclusions.
 - The GEO-only data rule is stated in Methods 2.1.
 - GRRAS and REMARK were already cited separately (now references 48 and 49); no change was needed.
+
+## 2026-11-10 — ER definition in GSE25066 checked against the source paper (no analysis changed)
+- The source publication (Hatzis et al., JAMA 2011) states that patients with any nuclear ER immunostaining in tumour cells were considered eligible for endocrine therapy, and that biopsies were fine-needle aspirates or core biopsies taken before systemic therapy. The paper does not state how the deposited binary ER field was defined.
+- The Discussion had offered a higher historical ER cut-off (ER-low tumours counted as negative) as one possible explanation for the higher prevalence in GSE25066. That explanation is now described as unlikely, and the biopsy type is added as a cohort difference. Methods 2.7 states both facts. No number changed.

@@ -43,12 +43,12 @@ P = d.paragraphs
 # ---- front matter -------------------------------------------------------------------------------
 title = L[0].lstrip("# ").strip()
 set_runs(P[0], "Article"); set_runs(P[1], title)
-AUTHORS = [("Areen Arabiat", "1", False), ("Alia Abu Kiwan", "2", False), ("Mohannad Banat", "3", False),
-           ("Manal Abbas", "2", True), ("Hamza Abu Owida", "3", True)]
-AFFS = ["Department of Communications and Computer Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan",
-        "Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan",
-        "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"]
-CORR = "Correspondence: m.abbas@ammanu.edu.jo (M.A.); h.abuowida@ammanu.edu.jo (H.A.O.)"
+AUTHORS = [("Alia Abu Kiwan", "1", False), ("Hamza Abu Owida", "2", True), ("Areen Arabiat", "3", False),
+           ("Mohannad Banat", "2", False), ("Manal Abbas", "1", True)]
+AFFS = ["Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan",
+        "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan",
+        "Department of Communications and Computer Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"]
+CORR = "Correspondence: h.abuowida@ammanu.edu.jo (H.A.O.); m.abbas@ammanu.edu.jo (M.A.)"
 a = P[2]
 for r in list(a.runs): r._r.getparent().remove(r._r)
 for k, (nm, af, star) in enumerate(AUTHORS):

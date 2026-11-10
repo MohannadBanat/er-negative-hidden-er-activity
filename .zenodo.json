@@ -1,15 +1,19 @@
 {
-  "title": "Code and analysis records for: Transcriptomic Hidden Oestrogen-Receptor Activity in ER-Negative Breast Cancer Is Technically Reproducible but Depends on Definition and Cohort",
+  "title": "Code and analysis records for: Technically Reproducible Hidden Oestrogen-Receptor Activity in ER-Negative Breast Cancer Depends on Definition and Cohort",
   "upload_type": "software",
   "description": "Analysis code, SHA-256-hashed internal analysis plan (25 October 2026), amendments A1–A4, deviations log, results files and figures for a secondary analysis of public data (GEO GSE96058, GSE40049, GSE38167, GSE337499, GSE337500; external cohort GSE25066) on the reproducibility, definition dependence, cohort dependence and composition of transcriptomic hidden ER activity calls in IHC ER-negative breast cancer.",
   "creators": [
     {
-      "name": "Arabiat, Areen",
-      "affiliation": "Department of Communications and Computer Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
-    },
-    {
       "name": "Abu Kiwan, Alia",
       "affiliation": "Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Abu Owida, Hamza",
+      "affiliation": "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Arabiat, Areen",
+      "affiliation": "Department of Communications and Computer Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
     },
     {
       "name": "Banat, Mohannad",
@@ -18,10 +22,6 @@
     {
       "name": "Abbas, Manal",
       "affiliation": "Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan"
-    },
-    {
-      "name": "Abu Owida, Hamza",
-      "affiliation": "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
     }
   ],
   "license": "MIT",

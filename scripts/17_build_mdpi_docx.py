@@ -37,6 +37,7 @@ def no_bidi(doc):   # the template's section carries <w:bidi/> (right-to-left se
     for sp in doc.element.body.iter(qn("w:sectPr")):
         for e in sp.findall(qn("w:bidi")): sp.remove(e)
 d = docx.Document(TPL); no_bidi(d)
+for _t in d.element.body.iter(qn('w:tblpPr')): _t.set(qn('w:tblpY'), '12000')   # sidebar 1 cm higher: at the template's 12541 it does not fit above the first-page footer in LibreOffice, which pushes the front matter to page 2
 body = d.element.body
 kids = list(body.iterchildren())
 P = d.paragraphs

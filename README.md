@@ -47,6 +47,10 @@ python3 -I scripts/20_A2_tableS1.py out out/TableS1_A2.md               # Supple
 # Amendment A4 (plan/amendment_A4_2026-11-10.md, SHA-256 ffad9bcf…f1a8): external cohort, post hoc
 python3 -I scripts/22_A4_external_GSE25066.py <GSE25066_series_matrix.txt.gz> <GPL96.annot.gz> ref/h.all.v7.0.symbols.gmt out
 python3 -I scripts/24_A4_table.py out out/Table5_A4.md
+# Amendment A5 (plan/amendment_A5_2026-11-25.md, SHA-256 97831068…01e6): analyses requested in peer review, post hoc.
+# The amendment and its hash were pushed to this repository before the analyses were run.
+python3 -I scripts/26_A5_reviewer_analyses.py <data dir> out results <GSE25066_series_matrix.txt.gz> <GPL96.annot.gz> ref/h.all.v7.0.symbols.gmt results/A5_reviewer_analyses.json
+# Revision 1: scripts 27 (Word build), 28 (revised text from the submitted text and the A5 results), 29 (marked copy)
 # Full provenance check of the SCAN-B matrix against the GEO file
 python3 -I scripts/23_provenance_full_check.py <GSE96058 gene expression csv.gz> data/expr.parquet out/provenance_full_check.json
 ```

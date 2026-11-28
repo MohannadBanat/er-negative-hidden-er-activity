@@ -2,6 +2,8 @@
 
 Code for a measurement and reproducibility study: how stable is a transcriptomic "hidden ER activity" call among breast cancers classified ER-negative by immunohistochemistry (IHC)?
 
+Manuscript title (revision 1, 28 November 2026): *Stability and Reproducibility of Transcriptomic Hidden Oestrogen-Receptor Activity in ER-Negative Breast Cancer: An Agreement Study in Two Public Cohorts*.
+
 Study type: secondary analysis of public data; agreement and reproducibility study (GRRAS), with descriptive biology. There are no prognostic or predictive claims.
 
 ## Analysis plan
